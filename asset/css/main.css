@@ -1,0 +1,57 @@
+.jumbotron {
+	background-image: url("../img/homeCPU.jpg");
+	background-position: center;
+	color: white;
+	padding: 250px 20px;
+}
+
+.container-fluid {
+    padding: 10px 40px;
+}
+
+.navbar {
+	background-color: white;
+	z-index: 9999;
+	font-size: 14px;
+	line-height: 1;
+	letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+	color: white !important;
+	background-color: #003399 !important;
+}
+
+.thumbnail {
+	border: solid;
+	border-radius: 20px;
+}
+
+.product {
+	border: 10px solid transparent;
+	margin-bottom: 20px;
+	width: 80%;
+	height: 80%;
+	opacity: 0.9;
+}
+
+.product:hover {
+	border-color: #f1f1f1;
+}
+
+.carousel-inner img {
+	width: 99%;
+	margin: auto;
+}
+
+.carousel-caption {
+	color: white !important;
+	font-size: 16px;
+	margin-bottom: 50px;
+}
+
+@media (max-width: 600px) {
+	.carousel-caption {
+		display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+	}
+}
